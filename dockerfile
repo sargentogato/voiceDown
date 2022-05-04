@@ -4,4 +4,4 @@ WORKDIR /voicedown
 COPY package.json /voicedown
 RUN npm install
 COPY . /voicedown
-RUN npm run build
+CMD npm run start
